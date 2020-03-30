@@ -1,0 +1,4 @@
+app/logs/animals_sales.log
+venv/*
+.idea
+app/db.sqlite3

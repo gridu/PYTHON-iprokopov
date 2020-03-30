@@ -1,0 +1,150 @@
+2020-03-27 23:26:54,101: INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-03-27 23:27:04,721: INFO: Create new user with login test_login_1 POST route was triggered
+2020-03-27 23:27:04,736: INFO: 127.0.0.1 - - [27/Mar/2020 23:27:04] "[37mPOST /register HTTP/1.1[0m" 201 -
+2020-03-27 23:27:08,320: INFO: Trying to authenticate
+2020-03-27 23:27:08,323: INFO: Login and password are correct
+2020-03-27 23:27:08,328: INFO: 127.0.0.1 - - [27/Mar/2020 23:27:08] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-27 23:28:02,818: INFO: Create new species with name Dog POST route was triggered by user with id 1
+2020-03-27 23:28:02,821: INFO: 127.0.0.1 - - [27/Mar/2020 23:28:02] "[37mPOST /species HTTP/1.1[0m" 201 -
+2020-03-27 23:28:11,524: INFO: Get all centers GET route was triggered
+2020-03-27 23:28:11,527: INFO: 127.0.0.1 - - [27/Mar/2020 23:28:11] "[37mGET /species HTTP/1.1[0m" 200 -
+2020-03-27 23:28:24,941: ERROR: Invalid token. Signature has expired
+2020-03-27 23:28:24,941: INFO: 127.0.0.1 - - [27/Mar/2020 23:28:24] "[31m[1mPOST /animals HTTP/1.1[0m" 401 -
+2020-03-27 23:28:33,961: INFO: Create animal with name Vasya POST route was triggered by user with id 1
+2020-03-27 23:28:33,964: INFO: 127.0.0.1 - - [27/Mar/2020 23:28:33] "[37mPOST /animals HTTP/1.1[0m" 201 -
+2020-03-27 23:28:38,588: INFO: Get all animals route was triggered
+2020-03-27 23:28:38,591: INFO: 127.0.0.1 - - [27/Mar/2020 23:28:38] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:28:49,345: INFO: Get all centers GET route was triggered
+2020-03-27 23:28:49,347: INFO: 127.0.0.1 - - [27/Mar/2020 23:28:49] "[37mGET /species HTTP/1.1[0m" 200 -
+2020-03-27 23:29:04,770: INFO: Create animal with name Vasya2 POST route was triggered by user with id 1
+2020-03-27 23:29:04,772: INFO: 127.0.0.1 - - [27/Mar/2020 23:29:04] "[37mPOST /animals HTTP/1.1[0m" 201 -
+2020-03-27 23:29:09,022: INFO: Get all animals route was triggered
+2020-03-27 23:29:09,024: INFO: 127.0.0.1 - - [27/Mar/2020 23:29:09] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:29:28,871: INFO: Get all centers GET route was triggered
+2020-03-27 23:29:28,873: INFO: 127.0.0.1 - - [27/Mar/2020 23:29:28] "[37mGET /species HTTP/1.1[0m" 200 -
+2020-03-27 23:29:29,708: INFO: Get all centers GET route was triggered
+2020-03-27 23:29:29,712: INFO: 127.0.0.1 - - [27/Mar/2020 23:29:29] "[37mGET /species HTTP/1.1[0m" 200 -
+2020-03-27 23:29:50,759: INFO: Get all animals route was triggered
+2020-03-27 23:29:50,761: INFO: 127.0.0.1 - - [27/Mar/2020 23:29:50] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:39:46,433: INFO: Get animal with id 1 route was triggered
+2020-03-27 23:39:46,435: INFO: 127.0.0.1 - - [27/Mar/2020 23:39:46] "[37mGET /animals/1 HTTP/1.1[0m" 200 -
+2020-03-27 23:39:53,440: INFO: Get animal with id 2 route was triggered
+2020-03-27 23:39:53,442: INFO: 127.0.0.1 - - [27/Mar/2020 23:39:53] "[37mGET /animals/2 HTTP/1.1[0m" 200 -
+2020-03-27 23:40:01,141: INFO: Get animal with id 1 route was triggered
+2020-03-27 23:40:01,144: INFO: 127.0.0.1 - - [27/Mar/2020 23:40:01] "[37mGET /animals/1 HTTP/1.1[0m" 200 -
+2020-03-27 23:40:18,667: INFO: Get all centers GET route was triggered
+2020-03-27 23:40:18,668: INFO: 127.0.0.1 - - [27/Mar/2020 23:40:18] "[37mGET /centers HTTP/1.1[0m" 200 -
+2020-03-27 23:40:32,406: INFO: Get center with id 1 GET route was triggered
+2020-03-27 23:40:32,411: INFO: 127.0.0.1 - - [27/Mar/2020 23:40:32] "[37mGET /centers/1 HTTP/1.1[0m" 200 -
+2020-03-27 23:40:42,661: INFO: Get all centers GET route was triggered
+2020-03-27 23:40:42,664: INFO: 127.0.0.1 - - [27/Mar/2020 23:40:42] "[37mGET /species HTTP/1.1[0m" 200 -
+2020-03-27 23:40:49,912: INFO: Get spices with id 1 GET route was triggered
+2020-03-27 23:40:49,915: INFO: 127.0.0.1 - - [27/Mar/2020 23:40:49] "[37mGET /species/1 HTTP/1.1[0m" 200 -
+2020-03-27 23:44:17,908: ERROR: Invalid token. Signature has expired
+2020-03-27 23:44:17,909: INFO: 127.0.0.1 - - [27/Mar/2020 23:44:17] "[31m[1mDELETE /animals/2?= HTTP/1.1[0m" 401 -
+2020-03-27 23:44:27,002: INFO: Trying to authenticate
+2020-03-27 23:44:27,004: INFO: Login and password are correct
+2020-03-27 23:44:27,014: INFO: 127.0.0.1 - - [27/Mar/2020 23:44:27] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-27 23:45:00,541: INFO: Delete animal with id 2 DELETE route was triggered by user with id 1
+2020-03-27 23:45:00,544: INFO: 127.0.0.1 - - [27/Mar/2020 23:45:00] "[37mDELETE /animals/2 HTTP/1.1[0m" 201 -
+2020-03-27 23:45:05,460: INFO: Get all animals route was triggered
+2020-03-27 23:45:05,462: INFO: 127.0.0.1 - - [27/Mar/2020 23:45:05] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:46:03,325: INFO: Create new user with login test_login_2 POST route was triggered
+2020-03-27 23:46:03,327: INFO: 127.0.0.1 - - [27/Mar/2020 23:46:03] "[37mPOST /register HTTP/1.1[0m" 201 -
+2020-03-27 23:46:59,746: INFO: Trying to authenticate
+2020-03-27 23:46:59,749: INFO: Login and password are correct
+2020-03-27 23:46:59,755: INFO: 127.0.0.1 - - [27/Mar/2020 23:46:59] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-27 23:47:15,326: INFO: Delete animal with id 1 DELETE route was triggered by user with id 2
+2020-03-27 23:47:15,328: INFO: 127.0.0.1 - - [27/Mar/2020 23:47:15] "[37mDELETE /animals/1 HTTP/1.1[0m" 201 -
+2020-03-27 23:47:19,602: INFO: Get all animals route was triggered
+2020-03-27 23:47:19,604: INFO: 127.0.0.1 - - [27/Mar/2020 23:47:19] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:47:20,421: INFO: Get all animals route was triggered
+2020-03-27 23:47:20,423: INFO: 127.0.0.1 - - [27/Mar/2020 23:47:20] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:50:08,235: INFO: Trying to authenticate
+2020-03-27 23:50:08,236: INFO: Login and password are correct
+2020-03-27 23:50:08,242: INFO: 127.0.0.1 - - [27/Mar/2020 23:50:08] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-27 23:50:22,990: INFO: 127.0.0.1 - - [27/Mar/2020 23:50:22] "[31m[1mPUT /animals HTTP/1.1[0m" 405 -
+2020-03-27 23:50:42,580: INFO: Update animal with id 1 PUT route was triggered by user with id 1
+2020-03-27 23:50:42,583: INFO: 127.0.0.1 - - [27/Mar/2020 23:50:42] "[37mPUT /animals/1 HTTP/1.1[0m" 201 -
+2020-03-27 23:50:47,535: INFO: Get all animals route was triggered
+2020-03-27 23:50:47,537: INFO: 127.0.0.1 - - [27/Mar/2020 23:50:47] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-27 23:50:51,430: INFO: Get animal with id 1 route was triggered
+2020-03-27 23:50:51,433: INFO: 127.0.0.1 - - [27/Mar/2020 23:50:51] "[37mGET /animals/1 HTTP/1.1[0m" 200 -
+2020-03-29 21:50:00,491: INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-03-29 21:50:13,564: INFO: Trying to authenticate
+2020-03-29 21:50:13,614: INFO: Login and password are correct
+2020-03-29 21:50:13,615: INFO: Saving 1 at None to access_requests table
+2020-03-29 21:50:13,620: INFO: 127.0.0.1 - - [29/Mar/2020 21:50:13] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-29 21:50:55,514: INFO: Create new species with name Rat POST route was triggered by user with id 1
+2020-03-29 21:50:55,516: INFO: New species with name Rat was added to database
+2020-03-29 21:50:55,517: INFO: 127.0.0.1 - - [29/Mar/2020 21:50:55] "[37mPOST /species HTTP/1.1[0m" 201 -
+2020-03-29 21:51:06,896: INFO: 127.0.0.1 - - [29/Mar/2020 21:51:06] "[31m[1mPOST /species HTTP/1.1[0m" 400 -
+2020-03-29 21:56:30,568: INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-03-29 21:56:35,576: INFO: 127.0.0.1 - - [29/Mar/2020 21:56:35] "[31m[1mPOST /species HTTP/1.1[0m" 400 -
+2020-03-29 21:56:49,443: ERROR: Invalid token. Signature has expired
+2020-03-29 21:56:49,443: INFO: 127.0.0.1 - - [29/Mar/2020 21:56:49] "[31m[1mPOST /species HTTP/1.1[0m" 401 -
+2020-03-29 21:56:54,449: INFO: Trying to authenticate
+2020-03-29 21:56:54,461: INFO: Login and password are correct
+2020-03-29 21:56:54,462: INFO: Saving 1 at None to access_requests table
+2020-03-29 21:56:54,467: INFO: 127.0.0.1 - - [29/Mar/2020 21:56:54] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-29 21:57:24,411: INFO: Create new species with name Mops POST route was triggered by user with id 1
+2020-03-29 21:57:24,414: INFO: New species with name Mops was added to database
+2020-03-29 21:57:24,414: INFO: 127.0.0.1 - - [29/Mar/2020 21:57:24] "[37mPOST /species HTTP/1.1[0m" 201 -
+2020-03-29 21:57:31,539: INFO: 127.0.0.1 - - [29/Mar/2020 21:57:31] "[31m[1mPOST /species HTTP/1.1[0m" 400 -
+2020-03-29 21:57:39,139: INFO: 127.0.0.1 - - [29/Mar/2020 21:57:39] "[31m[1mPOST /species HTTP/1.1[0m" 400 -
+2020-03-29 21:57:47,235: INFO: 127.0.0.1 - - [29/Mar/2020 21:57:47] "[31m[1mPOST /species HTTP/1.1[0m" 400 -
+2020-03-29 21:57:55,385: INFO: Create new species with name Mops POST route was triggered by user with id 1
+2020-03-29 21:57:55,386: INFO: New species with name Mops was added to database
+2020-03-29 21:57:55,387: INFO: 127.0.0.1 - - [29/Mar/2020 21:57:55] "[37mPOST /species HTTP/1.1[0m" 201 -
+2020-03-29 22:01:39,034: INFO: Get animal with id 1 route was triggered
+2020-03-29 22:01:39,036: INFO: 127.0.0.1 - - [29/Mar/2020 22:01:39] "[37mGET /animals/1 HTTP/1.1[0m" 200 -
+2020-03-29 22:01:43,333: INFO: 127.0.0.1 - - [29/Mar/2020 22:01:43] "[33mGET /animals/asd HTTP/1.1[0m" 404 -
+2020-03-29 22:54:33,633: WARNING: Failed to save new animal to database due to incorrect species -1 value
+2020-03-29 22:54:33,645: INFO: New species with name aa6b4e6e219a45539b966a5d20c85a24 was added to database
+2020-03-29 22:54:33,654: INFO: Get all centers GET route was triggered
+2020-03-29 22:54:33,659: INFO: Create new user with login 5c69db320f9e48b993530ca1de1bc477 POST route was triggered
+2020-03-29 22:54:33,662: INFO: New center with login 5c69db320f9e48b993530ca1de1bc477 was added to database
+2020-03-29 22:54:33,663: INFO: Get all centers GET route was triggered
+2020-03-29 22:55:54,478: WARNING: Failed to save new animal to database due to incorrect species -1 value
+2020-03-29 22:55:54,485: INFO: New species with name 464943bc0d6e4a93a2fb3955c6e3d685 was added to database
+2020-03-29 22:55:54,494: INFO: Get all centers GET route was triggered
+2020-03-29 22:55:54,500: INFO: Create new user with login c5196f051c6648d0988eed78a15f226d POST route was triggered
+2020-03-29 22:55:54,502: INFO: New center with login c5196f051c6648d0988eed78a15f226d was added to database
+2020-03-29 22:55:54,503: INFO: Get all centers GET route was triggered
+2020-03-29 22:56:10,012: WARNING: Failed to save new animal to database due to incorrect species -1 value
+2020-03-29 22:56:35,177: INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-03-29 22:56:41,697: INFO: Get all animals route was triggered
+2020-03-29 22:56:41,714: INFO: 127.0.0.1 - - [29/Mar/2020 22:56:41] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-29 22:56:42,592: INFO: Get all animals route was triggered
+2020-03-29 22:56:42,593: INFO: 127.0.0.1 - - [29/Mar/2020 22:56:42] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-29 22:56:43,663: INFO: Get all animals route was triggered
+2020-03-29 22:56:43,665: INFO: 127.0.0.1 - - [29/Mar/2020 22:56:43] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-29 22:56:49,613: WARNING: Failed to save new animal to database due to incorrect species -1 value
+2020-03-29 22:58:22,685: WARNING: Failed to save new animal to database due to incorrect species -1 value
+2020-03-29 22:58:31,245: WARNING: Failed to save new animal to database due to incorrect species -1 value
+2020-03-29 22:58:31,252: INFO: New species with name 3e25249665764f31a40aacc7a20cdb5d was added to database
+2020-03-29 22:58:31,260: INFO: Get all centers GET route was triggered
+2020-03-29 22:58:31,266: INFO: Create new user with login b23d347adccf44589ce5306a56429978 POST route was triggered
+2020-03-29 22:58:31,268: INFO: New center with login b23d347adccf44589ce5306a56429978 was added to database
+2020-03-29 22:58:31,269: INFO: Get all centers GET route was triggered
+2020-03-30 11:16:29,208: INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-03-30 11:16:39,654: INFO: Get all animals route was triggered
+2020-03-30 11:16:39,679: INFO: 127.0.0.1 - - [30/Mar/2020 11:16:39] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-30 11:16:42,211: INFO: Get all centers GET route was triggered
+2020-03-30 11:16:42,217: INFO: 127.0.0.1 - - [30/Mar/2020 11:16:42] "[37mGET /species HTTP/1.1[0m" 200 -
+2020-03-30 11:17:05,594: ERROR: Invalid token. Signature has expired
+2020-03-30 11:17:05,595: INFO: 127.0.0.1 - - [30/Mar/2020 11:17:05] "[31m[1mPUT /animals/1 HTTP/1.1[0m" 401 -
+2020-03-30 11:17:09,675: INFO: Trying to authenticate
+2020-03-30 11:17:09,677: INFO: Login and password are correct
+2020-03-30 11:17:09,678: INFO: Saving 1 at None to access_requests table
+2020-03-30 11:17:09,682: INFO: 127.0.0.1 - - [30/Mar/2020 11:17:09] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-30 11:17:34,950: INFO: Update animal with id 1 PUT route was triggered by user with id 1
+2020-03-30 11:17:34,951: INFO: Updating animal with id 1 with new values: {'name': 'Vasya -> Васян'}
+2020-03-30 11:17:34,954: INFO: 127.0.0.1 - - [30/Mar/2020 11:17:34] "[37mPUT /animals/1 HTTP/1.1[0m" 201 -
+2020-03-30 11:17:38,776: INFO: Get all animals route was triggered
+2020-03-30 11:17:38,779: INFO: 127.0.0.1 - - [30/Mar/2020 11:17:38] "[37mGET /animals HTTP/1.1[0m" 200 -
+2020-03-30 11:17:50,587: ERROR: Invalid token. Signature has expired
+2020-03-30 11:17:50,588: INFO: 127.0.0.1 - - [30/Mar/2020 11:17:50] "[31m[1mDELETE /animals/100500 HTTP/1.1[0m" 401 -
+2020-03-30 11:18:00,513: INFO: Delete animal with id 100500 DELETE route was triggered by user with id 1
+2020-03-30 11:18:00,514: WARNING: Could not delete animal due to incorrect id(100500) or owner(1)
+2020-03-30 11:18:00,515: INFO: 127.0.0.1 - - [30/Mar/2020 11:18:00] "[31m[1mDELETE /animals/100500 HTTP/1.1[0m" 400 -
